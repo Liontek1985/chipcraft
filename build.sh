@@ -6,7 +6,7 @@ build-essential \
 git \
 libsdl1.2-dev
 
-git clone https://github.com/xobs/mcrpi-wrapper
+git clone https://github.com/xobs/mcrpi-wrapper.git
 mkdir mcrpi-wrapper
 pushd mcrpi-wrapper
 git apply ../0001-set-PocketCHIP-screen-resolution.patch
